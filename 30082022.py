@@ -174,22 +174,4 @@ import requests
 #
 # response = requests.get(url=f'{url}?postId=1')
 # print(f"{response.status_code=}")
-#
-# message = input("Input your message:")
-# password = int(input("Input your password:"))
-# alphabet ="abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
-# alphabet = {element : chr(element) for element in range(128)}
-# end = ""
-# res = []
-#
-# for el in message:
-#
-#     point = alphabet.find(el)
-#     new_point = point + password
-#
-#     if el in alphabet:
-#         end += alphabet[new_point]
-#
-#     else:
-#         end += el
-# print(end)
+
