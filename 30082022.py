@@ -150,16 +150,12 @@
 #             f"{row['name']=}, {row['age']=}"
 #         )
 ##########################################################
-import requests
-
-
+# import requests
+#
+#
 # response = requests.get('https://google.com')
 # print(f"{response.status_code=}")
-#
-#
-# response = requests.request(url='https://google.com', method="GET")
-# print(f"{response.status_code=}")
-# print(f"{response.content=}")  # content of the HTML page or body of API response
+
 
 # url = "https://jsonplaceholder.typicode.com/comments"
 # params = {"postId": 1}
